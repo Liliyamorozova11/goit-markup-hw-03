@@ -132,7 +132,8 @@ ul {
     min-width: 169px;
     height: 56px;
     border: none;
-    display: inline-block;
+   display: block;
+    margin: 0 auto;
 }
     .order-button:hover,
     .order-button:focus {
@@ -221,7 +222,10 @@ ul {
  .portfolio {
      padding: 120px 0;
  }
-
+.portfolio .container {
+    border: 1px solid #e7e9fc;
+ 
+}
 
   .portfolio-title{
         font-size: 36px;
@@ -240,7 +244,7 @@ ul {
  }
 .portfolio-item {
    background: #fff;
-  border-bottom: 1px solid #e7e9fc;
+ 
 flex: 0 1 calc((100% - 24px * 2) / 3);
 width: calc((100% - 48px) / 3);
 }
@@ -282,11 +286,10 @@ width: calc((100% - 48px) / 3);
     max-width: 264px;
 }
    
-   .footer .logo {
-       display: inline-block;
-       
-       margin-bottom: 16px;
+  .footer .logo {
+      display: inline-block;
+     
+      margin-bottom: 16px;
       
-   }
-      
+  }
         
