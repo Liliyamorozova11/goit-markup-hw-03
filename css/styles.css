@@ -222,10 +222,10 @@ ul {
 .portfolio {
     padding: 120px 0;
 }
-.portfolio .container {
-    border: 1px solid #e7e9fc;}
+.container-portfolio {
+    border: 1px solid #e7e9fc; }
 
-  .portfolio-title{
+.portfolio-title{
         font-size: 36px;
        letter-spacing: 0.02em;
         text-align: center;
