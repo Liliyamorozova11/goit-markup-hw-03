@@ -222,7 +222,7 @@ ul {
 .portfolio {
     padding: 120px 0;
 }
-.container-portfolio {
+.portfolio .container{
     border: 1px solid #e7e9fc; }
 
 .portfolio-title{
@@ -262,7 +262,7 @@ ul {
 }
 
 .footer-container {
-    display: flex;
+    
     gap: 40px;
     align-items: baseline;
 }
